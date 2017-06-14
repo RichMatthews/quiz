@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body>
-	Welcome!
-</body>
+	<body>
+		<div id="container">
+			<div class="welcome">
+				<h1> The Quiz </h1>
+			</div>
+			<div id="questionSection"></div>
+			<div id="answerSection">
+				<div>
+					<input name="answers" type="radio" checked>
+					<label id="optionOne"></label>
+				</div>
+				<div>
+					<input name="answers" type="radio">
+					<label id="optionTwo"></label>
+				</div>
+				<div>
+					<input name="answers" type="radio">
+					<label id="optionThree"></label>
+				</div>
+				<div>
+					<input name="answers" type="radio">
+					<label id="optionFour"></label>
+				</div>
+			</div>
+		</div>
+		<div class="buttons">
+			<button id="nextButton">Next</button>
+			<button id="finishQuizBtn">Finish</button>
+		</div>
+		<div>
+			<p id="score"> </p>
+		</div>
+		<script src="main.js"></script>
+	</body>
 </html>

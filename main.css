@@ -1,0 +1,23 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+#answerSection {
+  display: flex;
+}
+
+@media only screen and (max-width: 500px) {
+  #answerSection {
+    display: flex;
+    flex-direction: column;
+  }
+}
